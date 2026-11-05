@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | ISIL  La Molina</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="import" href="img/Icono isil.png">
+</head>
+<body>
+    <header>
+        <h1>ISIL La Molina</h1>
+        <nav>
+            <a href="contacto.html">INICIO</a>
+            <a href="tablas.html">INFORMACIÓN</a>
+            <a href="formularios.html">CONTACTO</a>
+            <a href="mapa.html">UBICACIÓN</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contáctanos</h2>
+        <p>Bienvenidos a ISIL - Local La Molina. Aquí podrás encontrar nuestra información y enviarnos tus cocsultas.</p>
+        <div class="columnas">
+            <section id="información">
+                <h3>información general</h3>
+                <p><strong>Sede:</strong>ISIL La Molina</p>
+                <p><strong>Dirección:</strong>Av. La Fontana 955, La Molina, Lima.</p>
+                <h3>Áreas de atención</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Área</th>
+                            <th>información</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Admisión</td>
+                            <td>Información de carreras</td>
+                        </tr>
+                        <tr>
+                            <td>Estudiantes</td>
+                            <td>Consultas académicas</td>
+                        </tr>
+                        <tr>
+                            <td>Informes</td>
+                            <td>Orientación general</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <section class="formulario">
+            <div class="caja uno">
+                <h3>Formulario de Acceso</h3>
+                <form method="get" name="formulario 1">
+                    <label>usuario</label>
+                    <input type="text" name="usuario" placeholder="Ingrese el usuario" size="15" maxlength="10" required><br>
+                    <label>clave</label>
+                    <input type="password" name="clave" placeholder="Ingrese a clave secreta">
+                    <div class="botones">
+                        <input type="submit" value="Aceptar" class="btn">
+                        <input type="reset" value="Cancelar" class="btn">
+            </div>
+        </form>
+    </div>
+    <div class="caja dos">
+        <h3>Formulario de ingreso de datos</h3>
+        <form method="get" name="formulario 2">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label>Nombre</label>
+                <input type="text" name="nombre" placeholder="Nombres y Apellidos"><br>
+                <label>email</label>
+                <input type="email" name="correo" placeholder="correo"><br>
+                <label>Telefono</label>
+                <input type="tel" name="celular" placeholder="000000000" maxlength="9" size="9"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Otros Datos</legend>
+                <label>Web</label>
+                <input type="url" name="web" placeholder="http://www.dominio.com"><br>
+                <label>Edad</label>
+                <input type="number" name="edad" max="100" min="0" step="2"><br>
+                <label>Fecha Nac</label>
+                <input type="date" name="cumple"><br>
+                <label>Comidas Favoritas:</label><br>
+                <input type="checkbox" name="comida" id="m">Marinas
+                <input type="checkbox" name="comida" id="p">Parrillas
+                <input type="checkbox" name="comida" id="e"checked>Ensaladas
+                <label>Genero:</label><br>
+                <input type="radio" name="genero" value="H" checked>Masculino
+                <input type="radio" name="genero" value="F">Femenino
+                <input type="radio" name="genero" value="N">Ningunoz<br>
+                <label>Comentario</label>
+                <textarea name="comentario" cols="30" rows="10"></textarea>
+            </fieldset>
+            <div class="botones">
+                <input type="submit" value="Aceptar" class="btn">
+                <input type="reset" value="Cancelar" class="btn">
+            </div>
+        </form>
+    </div>
+        </section>
+        <div id="contenedor">
+        <h1>Instituto Isil - Local La Molina</h1>
+        <h2>Direccion:AV. La Fontana 955 - La Molina</h2>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5669063381!2d-76.9506243248589!3d-12.073291642395315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6e435a93c41%3A0xcdaaa71f277efd64!2sISIL%20La%20Molina%20-%20Carreras%20T%C3%A9cnicas!5e0!3m2!1ses!2spe!4v1793287339327!5m2!1ses!2spe" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>2026 ISIL La Molina - Todos los derechos reservados.</p>
+        <p>Av. La Fontana 955 - La Molina, Lima, Perú.</p>
+        <p>Contacto institucional: consulta los canales oficiales de ISIL.</p>
+    </footer>
+</body>
+</html>
